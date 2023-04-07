@@ -10,23 +10,29 @@
 }
 
 .App {
-  border: 1px solid rgb(156, 155, 155);
   width: 60%;
   margin: auto;
   padding: 10px;
+
+  background: rgba(190, 189, 189, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .App input {
-  height: 4vh;
+  height: 5vh;
   width: 60%;
   outline: none;
   border: none;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .App div {
   width: 95%;
-  margin: 5px auto;
+  margin: 7px auto;
   padding: 10px;
 }
 
@@ -34,8 +40,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #fff;
   width: 100%;
+
+  background: rgba(22, 22, 22, 0.562);
+  box-shadow: 0 8px 32px 0 rgba(43, 42, 42, 0.562);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .box_txttask {
